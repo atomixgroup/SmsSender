@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/contacts"
+    android:icon="@drawable/ic_contact_phone"
+    android:title="دفترچه تلفن" />
+    <item
+        android:id="@+id/charj"
+        android:icon="@drawable/ic_track_changes"
+        android:title="شارژ حساب" />
+    <item
+        android:id="@+id/group"
+        android:icon="@drawable/ic_group"
+        android:title="گروه بندی"/>
+    <item
+        android:id="@+id/sms_text"
+        android:icon="@drawable/ic_group"
+        android:title="متن پیامک"/>
+</menu>

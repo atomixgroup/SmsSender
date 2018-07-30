@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/btn_delete"
+            app:srcCompat="@drawable/ic_remove"
+            android:background="#ff0000"
+            android:tint="#fff"
+
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/contact_count"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="123 مخاطب"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/item_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+
+            android:textSize="15sp" />
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="پیشفرض"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:id="@+id/btn_default"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ویرایش" />
+
+</LinearLayout>
